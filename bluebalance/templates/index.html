@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,900,400italic,900italic|Lobster|Pacifico|Signika:400,600,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{STATIC_URL}}bootstrap/dist/css/bootstrap.min.css" />
+        <style>
+            body{
+                font-family: "Signika", Arial;
+                font-weight: 300;
+            }
+            h2, h3{
+                font-family: "Lato", Arial;
+            }
+            .header{
+                background: #315987;
+                padding: 10px;
+                text-align: center;
+                color: #fff;
+            }
+            h1{
+                margin: 0;
+                color: #fff;
+                font-size: 70px;
+                font-family: "Lobster";
+                text-shadow: 1px 2px 4px #24459B;
+            }
+            .header h2{
+                margin: 0 50px;
+                font-size: 24px;
+                color: #ACD1FA;
+            }
+            .banner{
+                margin: 10px 0;
+                border: 1px solid #7a7;
+                text-align:center;
+                font-size: 18px;
+                background: #FAFCA7;
+                color: #e09;
+            }
+            .bucket{
+                overflow: hidden;
+                border: 1px solid #CBCACA;
+                background: #fff;
+                box-shadow: 5px 5px 10px #95A7B8;
+            }
+            .bucket .bucket-body{
+                height: 425px;
+            }
+            .bucket h3{
+                margin: 0;
+                color: #fff;
+                padding: 7px 10px;
+                background: #315987;
+                text-shadow: 1px 1px 2px #444;
+            }
+            .bucket .repairs-title{
+                background-color: #770F02;
+            }
+            .bucket p{
+                margin: 7px 15px;
+            }
+            .testimonial{
+                height: 160px;
+                background: #fff;
+                border: 1px solid #aaa;
+            }
+            .testimonial .photo{
+                float: left;
+                width: 80px;
+                height: 100px;
+                background: #666;
+                margin: 10px;
+            }
+            .testimonial .title{
+                display: block;
+                padding: 5px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .testimonial .title em{
+                font-weight: normal;
+                font-size: 15px;
+            }
+            .testimonial blockquote{
+                margin: 0;
+                padding: 2px;
+                text-indent: 10px;
+                font-size: 13px;
+            }
+            .separator{
+                text-align: center;
+                padding-bottom: 50px;
+                font-size: 46px;
+                font-style: italic;
+                font-weight: bold;
+                color: #fff;
+                font-family: "Pacifico";
+            }
+            .center-btn{
+                text-align: center;
+                padding-top: 30px;
+            }
+            .center-btn a{ font-size: 30px; }
+            .front2, .front3{
+                padding: 50px 0 50px 0;
+            }
+            .back1{ background-color: #315987; }
+            .back2{ background-color: rgb(220, 228, 229); }
+            .back3{ background-color: rgb(39, 38, 69)}
+            .back4{ background-color: rgb(24, 22, 22); }
+            .front1{ background-color: #315987; }
+            /*.front2{ background-color: rgb(169, 190, 221); }*/
+            .front3{ background-color: rgb(39, 38, 69); }
+            .front4{ background-color: rgb(24, 22, 22); color: #fff;  }
+        </style>
+    </head>    
+        <body>
+            <div class="back back1">
+                <div class="container front1">
+                    <div class="header">
+                        <h1>Blue Balance</h1>
+                        <h2>Swimming Pool Service & Repair Specialists</h2>
+                        <h3>619-212-9499</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="back back2">
+                <div class="container front2">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <div class="bucket">
+                                <h3 class="service-title">Service & Maintenance</h3>
+                                <div class="bucket-body">
+                                    <p>We offer premier pool service unparallelled in the industry. 
+                                    With a solid reputation for consistency and results you can count 
+                                    on us to keep your pool beautiful all year long</p>
+                                </div>
+                                <div class="pull-right">
+                                    <a class="btn btn-primary" href="#">More info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="col-md-4 col-xs-6">-->
+                        <!--    <div class="bucket">-->
+                        <!--        <h3>Repairs</h3>-->
+                        <!--        <div class="bucket-body">-->
+                        <!--           <p></p>-->
+                        <!--        </div>-->
+                        <!--       <div class="pull-right"><a class="btn btn-primary" href="#">More info</a></div>-->
+                        <!--    </div>-->
+                        <!--</div>-->
+                        <div class="col-md-6 col-xs-12">
+                           <div class="bucket">
+                                <h3 class="repairs-title">Repairs & Installation</h3>
+                                <div class="bucket-body">
+                                    <p>The swimming pool industry is always breaking
+                                    new ground with the equipment they come out with
+                                    all the time.
+                                    </p>
+                                </div>
+                                <div class="pull-right">
+                                    <a class="btn btn-primary" href="">More info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="center-btn">
+                            <a href="#" class="btn btn-info btn-lg">
+                                <span class="glyphicon glyphicon-star"></span> Contact Us For a Free Estimate</a>
+                        </div>
+                    </div>
+            <p></p>
+                </div>                
+            </div>
+            <!--<div class="back back3">-->
+            <!--    <div class="container front3">-->
+            <!--        <div class="row">-->
+            <!--            <div class="separator">Testimonials</div>-->
+            <!--        </div>-->
+            <!--        <div class="row">-->
+            <!--            <div class="col-xs-6 col-md-6">-->
+            <!--               <div class="testimonial">-->
+            <!--                   <div class="photo">-->
+                                   
+            <!--                   </div>-->
+            <!--                   <span class="title">Marge <em>El Cajon</em></span>-->
+            <!--                   <blockquote>I have had Lenny servicing my pool -->
+            <!--                   for the last 12 years. Never once have I had a -->
+            <!--                   single complaint. These guys are fantastic.</blockquote>-->
+            <!--               </div> -->
+            <!--            </div>-->
+            <!--            <div class="col-xs-6 col-md-6">-->
+            <!--               <div class="testimonial">-->
+                               
+            <!--               </div> -->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--        <div class="separator"></div>-->
+            <!--        <div class="row">-->
+            <!--            <div class="col-xs-6 col-md-6">-->
+            <!--               <div class="testimonial">-->
+                               
+            <!--               </div> -->
+            <!--            </div>-->
+            <!--            <div class="col-xs-6 col-md-6">-->
+            <!--               <div class="testimonial">-->
+                               
+            <!--               </div> -->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--        <p></p>-->
+            <!--    </div>                -->
+            <!--</div>-->
+            <div class="back back4">
+                 <div class="container front4">
+                     <div class="footer">
+                       <div class="row">
+                           <div class="col-md-4">
+                               <h3>Our Service Area</h3>
+                               <ul>
+                                   <li>El Cajon</li>
+                                   <li>Rancho San Diego</li>
+                                   <li>La Mesa</li>
+                                   <li>Jamul</li>
+                                   <li>La Mesa</li>
+                                   <li>Santee</li>
+                               </ul>
+                           </div>
+                           <div class="col-md-4">
+                               <h3>Our Brands</h3>
+                               <em>We have experience with the following manufacturer's parts</em>
+                               <ul>
+                                   <li>Pentair</li>
+                                   <li>Polaris</li>
+                                   <li>Hayward</li>
+                                   <li>Sta Rite</li>
+                               </ul>
+                                   
+                           </div>
+                           <div class="col-md-4">
+                               
+                           </div>
+                       </div>  
+                     </div>
+                </div>                
+            </div>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/knockout/3.2.0/knockout-min.js"></script>
+            <script src="{{STATIC_URL}}bluebalance.js"></script>
+            <script>
+                window.jQuery( function(){
+                   $.BlueBalance(); 
+                });
+            </script>
+            <script type="text/html" id="tmpl-repairs">
+                {% include "inc/repairs.html" %}
+            </script>
+        </body>
+</html>
